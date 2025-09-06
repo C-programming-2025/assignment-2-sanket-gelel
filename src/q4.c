@@ -1,12 +1,6 @@
 #include <stdio.h>
 int main() {
-    int num;
-    printf("Enter a number: ");
-    scanf("%d", &num);
-
-    if (num < 0)
-        num = -num;
-
-    printf("Absolute value: %d\n", num);
+    for (int i = 2; i <= 100; i += 2)
+        printf("%d ", i);
     return 0;
 }
