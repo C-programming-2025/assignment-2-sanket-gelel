@@ -1,1 +1,12 @@
-// Write a C program that prints all even numbers between 1 and 100 using a for loop.
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num < 0)
+        num = -num;
+
+    printf("Absolute value: %d\n", num);
+    return 0;
+}
